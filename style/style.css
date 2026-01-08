@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px 120px;
+}
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+}
+
+nav .access-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #31965b;
+    padding: 14px 18px;
+    border-radius: 4px;
+    border: none;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+nav .access-btn:hover {
+    background-color: #277d48;
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+}
