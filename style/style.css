@@ -440,3 +440,61 @@ nav .access-btn:active {
     line-height: 20px;
 }
 
+
+footer {
+    background-color: #001931;
+    padding: 120px 120px 30px;
+    height: 350px;
+}
+
+#footer-section .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-section .logo .social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    color: white;
+}
+
+#footer-section .logo .social .social-img {
+    display: flex;
+    gap: 16px;
+}
+
+.social-img a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#footer-section .logo .social .social-img img {
+    width: 28px;
+    height: auto;
+    cursor: pointer;
+}
+
+.social-img img:hover {
+    transform: scale(1.1);
+}
+
+
+#footer-section .logo .social .social-text {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#footer-section .copyright {
+    border-top: 1px solid #e8e9eb;
+    margin-top: 80px;
+    font-size: 16px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+#footer-section .copyright p {
+    padding: 30px 0 0;
+}
