@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 nav {
@@ -45,17 +44,6 @@ nav .access-btn {
         transform 0.25s ease,
         box-shadow 0.25s ease,
         background-color 0.25s ease;
-}
-
-nav .access-btn:hover {
-    background-color: #277d48;
-    transform: translateY(-4px) scale(1.03);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
-}
-
-nav .access-btn:active {
-    transform: translateY(0) scale(0.97);
-    box-shadow: none;
 }
 
 #banner {
@@ -130,7 +118,6 @@ nav .access-btn:active {
     height: 6px;
 }
 
-
 #banner h1 {
     font-size: 80px;
     margin-bottom: 24px;
@@ -178,19 +165,6 @@ nav .access-btn:active {
         background-color 0.25s ease;
 }
 
-.banner-btn .building-vault:hover {
-    background-color: #277d48;
-    transform: translateY(-4px) scale(1.03);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
-}
-
-.banner-btn .building-vault:active {
-    transform: translateY(0) scale(0.97);
-    box-shadow: none;
-}
-
-
-
 .banner-btn .building-vault .btn-icon {
     width: 16px;
     height: auto;
@@ -219,11 +193,6 @@ nav .access-btn:active {
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateY(-4px) scale(1.03);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
-}
-
-.banner-btn .how-work:active {
-    transform: translateY(0) scale(0.97);
-    box-shadow: none;
 }
 
 .banner-btn .how-work .playbtn-icon {
@@ -423,23 +392,12 @@ nav .access-btn:active {
         background-color 0.25s ease;
 }
 
-.early-access-container .access-btn-large:hover {
-    background-color: #277d48;
-    transform: translateY(-4px) scale(1.03);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
-}
-.early-access-container .access-btn-large:active {
-    transform: translateY(0) scale(0.97);
-    box-shadow: none;
-}
-
 .early-access-container .last-line {
     margin-top: 16px;
     font-size: 16px;
     color: #627382;
     line-height: 20px;
 }
-
 
 footer {
     background-color: #001931;
@@ -497,4 +455,15 @@ footer {
 
 #footer-section .copyright p {
     padding: 30px 0 0;
+}
+
+nav .access-btn:hover, .banner-btn .building-vault:hover, .early-access-container .access-btn-large:hover {
+    background-color: #277d48;
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+}
+
+nav .access-btn:active, .banner-btn .building-vault:active, .banner-btn .how-work:active, .early-access-container .access-btn-large:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: none;
 }
