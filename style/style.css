@@ -57,7 +57,7 @@ nav .access-btn:active {
     box-shadow: none;
 }
 
-.banner {
+#banner {
     position: relative; 
     min-height: 85vh;
     display: flex;
@@ -130,18 +130,18 @@ nav .access-btn:active {
 }
 
 
-.banner h1 {
+#banner h1 {
     font-size: 80px;
     margin-bottom: 24px;
     line-height: 1.2;
     color: white;
 }
 
-.banner h1 span {
+#banner h1 span {
     color: #30B868;
 }
 
-.banner p {
+#banner p {
     font-size: 20px;
     line-height: 1.6;
     color: white;
@@ -150,7 +150,7 @@ nav .access-btn:active {
     margin: 0 auto;
 }
 
-.banner .banner-btn {
+#banner .banner-btn {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -219,5 +219,78 @@ nav .access-btn:active {
     width: 16px;
     height: auto;
 
+}
+
+#note-section, .note-container {
+    padding: 40px 120px;
+    background-color: #F9F9F9;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-container .note-heading h2{
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.note-container .note-heading p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+    color: #627382;
+}
+
+.note-box {
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.note-box .note-card {
+    background-color: white;
+    padding: 30px 24px 22px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 322px;
+    margin: 0 16px;
+    height: 300px;
+    text-align: center;
+}
+
+.note-box .note-card .image-wrapper {
+    width: 55px;
+    height: 55px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px auto;
+    
+}
+
+.note-box .note-card .image-wrapper img {
+    height: 35px;   
+    width: 35px;
+    display: block;
+}
+
+.note-box .note-card h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #001931;
+    font-weight: 600;
+}
+
+.note-box .note-card p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
 }
 
