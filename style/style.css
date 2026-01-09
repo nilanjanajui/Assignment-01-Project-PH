@@ -184,6 +184,11 @@ nav .access-btn:active {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
 }
 
+.banner-btn .building-vault:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: none;
+}
+
 
 
 .banner-btn .building-vault .btn-icon {
@@ -214,6 +219,11 @@ nav .access-btn:active {
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateY(-4px) scale(1.03);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+}
+
+.banner-btn .how-work:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: none;
 }
 
 .banner-btn .how-work .playbtn-icon {
@@ -360,3 +370,73 @@ nav .access-btn:active {
     flex-shrink: 0;
     margin-top: 2px;
 }
+
+#early-access {
+    background-color: #F7F6F2;
+    padding: 80px 120px;
+    text-align: center;
+    margin: 2px 120px 120px;
+    border-radius: 12px;
+    height: 550px;
+}
+
+.early-access-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 16px;
+}
+
+.early-access-container h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.early-access-container .text {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.early-access-container .access-btn-large {
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #469165;
+    padding: 16px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+.early-access-container .access-btn-large:hover {
+    background-color: #277d48;
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+}
+.early-access-container .access-btn-large:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: none;
+}
+
+.early-access-container .last-line {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
