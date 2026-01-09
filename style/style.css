@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-.font-open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 
 nav {
@@ -223,13 +224,13 @@ nav .access-btn:active {
 
 #note-section, .note-container {
     padding: 40px 120px;
-    background-color: #F9F9F9;
+    background-color: white;
     justify-content: center;
     align-items: center;
 }
 
 .note-container .note-heading h2{
-    font-size: 48px;
+    font-size: 50px;
     text-align: center;
     margin: 0 auto;
 }
@@ -294,3 +295,68 @@ nav .access-btn:active {
     line-height: 20px;
 }
 
+#brain .brain-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    gap: 80px;
+
+}
+
+.brain-container .brain-content {
+    max-width: 700px;
+    text-align: left;
+}
+
+.brain-content .solution {
+    font-size: 20px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.brain-content h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+    width: 80%;
+}
+
+.brain-content p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 40px;
+    width: 70%;
+
+}
+
+.brain-section-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.brain-section-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    line-height: 24px;
+}
+
+.brain-section-list li::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(../assets/CheckCircle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
